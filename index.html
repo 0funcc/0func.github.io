@@ -1,17 +1,41 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>ZEROFUNCTION</title>
 </head>
 <body>
     <div class="main-body">
-        <img class="zerofunctiontext desktop-only" src="src/ZeroFunction.svg" alt="Zero Function Text" class="logo">
-        <p>SITE UNDER CONSTRUCTION</p>
+        <div class="terminal-window">
+            <div class="terminal-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="terminal-title">0func@dev ~ </span>
+            </div>
+            <div class="terminal-content">
+                <p><span class="prompt">~</span> <span class="cmd">whoami</span></p>
+                <p class="output">Ali Abdul Gafur</p>
+
+                <p><span class="prompt">~</span> <span class="cmd">cat about.txt</span></p>
+                <p class="output">Student @ Arab Open University, Kuwait.</p>
+                <p class="output">I make random stuff — apps, websites, and whatever else catches my interest.</p>
+
+                <p><span class="prompt">~</span> <span class="cmd">cat skills.txt</span></p>
+                <p class="output">Swift, React, C#, and a few other things.</p>
+                <p class="output">I care about clean design and good user experience.</p>
+
+                <p><span class="prompt">~</span> <span class="cmd">cat status.txt</span></p>
+                <p class="output">Currently: Parts Operations Coordinator @ Alghanim Industries.</p>
+
+                <p><span class="prompt">~</span> <span class="cursor">█</span></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
